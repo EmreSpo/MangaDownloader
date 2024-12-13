@@ -4,7 +4,9 @@ Bu projedeki amacım; bir manga sitesinden manga bölümleri indirmeye yarayan b
 
 1.Güncelleme:
 Proje için gerekli olabilecek kütüphaneleri dosya içerisine ekledim. Ayrıca proje için Jsoup kütüphanesi için ayrı bir klasör oluşturdum.
+
 -------------------------------------------------------------------------------------------------------------------------------------------
+
 2.Güncelleme:
 Proje için geliştirmeler yapıldı. İlk olarak "One Piece" mangasını denedim. Amacım indirilecek linkten "One Piece" mangasını istediğim bölümü indirmek. Bu güncellemede eklenenler:
 
@@ -13,5 +15,6 @@ Proje için geliştirmeler yapıldı. İlk olarak "One Piece" mangasını denedi
 2.Jsoup kullanarak sayfa indirirdi ve parse edildi.
 3.İndirilen linkten kaç adet görsel indirildiğini gösterirdi. Hata varsa bir "Bir hata oluştu" mesajı gösterilecek.
 4.İndirmeler başarılı ise " 'İndirildi' + imageUrl ", başarız olursa " 'İndirilmedi' + imageUrl " mesajı verilecek.
+
 -------------------------------------------------------------------------------------------------------------------------------------------
 
