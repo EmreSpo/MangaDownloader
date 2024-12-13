@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "javac",
+            "args": [
+                "-cp",
+                "lib/jsoup-1.18.1.jar",
+                "-d",
+                "bin",
+                "MangaDownloader.java"
+            ],
+            "group": "build"
+        }
+    ]
+}
