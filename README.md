@@ -11,10 +11,14 @@ Proje için gerekli olabilecek kütüphaneleri dosya içerisine ekledim. Ayrıca
 Proje için geliştirmeler yapıldı. İlk olarak "One Piece" mangasını denedim. Amacım indirilecek linkten "One Piece" mangasını istediğim bölümü indirmek. Bu güncellemede eklenenler:
 
 1.Kod içerisine indirilen bölümleri, otomatik olarak bölüm ile aynı adlı klasör oluştururup içerisine kaydedildi.
+
 2.Klasör oluşursa "Klasör olusturuldu" mesajı erilecek, oluşturulmadıysa "Klasör oluşturulmadı" mesajı verilecek.
-2.Jsoup kullanarak sayfa indirirdi ve parse edildi.
-3.İndirilen linkten kaç adet görsel indirildiğini gösterirdi. Hata varsa bir "Bir hata oluştu" mesajı gösterilecek.
-4.İndirmeler başarılı ise " 'İndirildi' + imageUrl ", başarız olursa " 'İndirilmedi' + imageUrl " mesajı verilecek.
+
+3.Jsoup kullanarak sayfa indirirdi ve parse edildi.
+
+4.İndirilen linkten kaç adet görsel indirildiğini gösterirdi. Hata varsa bir "Bir hata oluştu" mesajı gösterilecek.
+
+5.İndirmeler başarılı ise " 'İndirildi' + imageUrl ", başarız olursa " 'İndirilmedi' + imageUrl " mesajı verilecek.
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
